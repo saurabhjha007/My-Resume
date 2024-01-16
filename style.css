@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+body{
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    top: 1rem;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left-side{
+    position: relative;
+    background-color: #003147;
+    padding: 20px;
+    box-shadow: 10px 30px 150px gray;
+}
+
+.Profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name h2{
+    font-size: 1.9rem;
+    color: #fff;
+    line-height: 2rem;
+}
+.name{
+    margin-top: 0.5rem;
+}
+h2 span{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #35A7FF;
+    /* margin-left: 1rem; */
+    text-align: center;
+}
+
+.Contact-Us h3{
+    margin-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Contact-Us p{
+    color: #35A7FF;
+    line-height: 2rem;
+}
+.Contact-Us p a{
+    text-decoration: underline;
+    color: #35A7FF;
+}
+
+.social-media h4{
+    margin-top: 1rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon a i {
+    font-size: 25px;
+    color: #35A7FF;
+    margin-top: 1rem;
+}
+
+.language h3{
+    color: #fff;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.language ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.language .text{
+    color: #35A7FF;
+    text-transform: uppercase;
+}
+
+.language .percentage{
+    position: relative;
+    width: 100%;
+    display: block;
+    background: black;
+    height: 10px;
+    border-radius: 2rem;
+
+}
+
+.language .percentage div{
+    position: absolute;
+    background: #35A7FF;
+    height: 100%;
+    border-radius: 2rem;
+    top: 0px;
+    left: 0px;
+}
+
+.hobbies h3{
+    color: #fff;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+/* Right Side Content */
+
+.container .right-side{
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+    margin-left: 0.5rem;
+    box-shadow: 10 30px 30px gray;
+}
+.skills h2{
+    color: #35A7FF;
+    font-style: italic;
+}
+.skills p{
+    color: black;
+    line-height: 1.3rem;
+}
+
+.Education h2{
+    margin-top: 1.3rem;
+    color: #35A7FF;
+    font-style: italic;
+}
+
+.Education ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.Education .percentage{
+    position: relative;
+    width: 100%;
+    display: block;
+    background: black;
+    height: 10px;
+    border-radius: 2rem;
+
+}
+.Education .percentage div{
+    position: absolute;
+    background: #35A7FF;
+    height: 100%;
+    border-radius: 2rem;
+    top: 0px;
+    left: 0px;
+}
+
+.Education .percentage div div{
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.course h2{
+    margin-top: 1.3rem;
+    color: #35A7FF;
+    font-style: italic;
+}
+
+.Project h2{
+    margin-top: 1.3rem;
+    color: #35A7FF;
+    font-style: italic;
+}
+
+.Project ol {
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem;
+    line-height: 1.3rem;
+}
+
+.Abput-us h2{
+    margin-top: 1.3rem;
+    color: #35A7FF;
+    font-style: italic;
+}
