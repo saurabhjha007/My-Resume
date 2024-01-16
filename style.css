@@ -3,7 +3,6 @@
     padding: 0px;
     font-family: sans-serif;
     box-sizing: border-box;
-    /* border: 2px solid red; */
 }
 body{
     background-color: #d3d3d3;
@@ -61,7 +60,6 @@ h2 span{
     font-size: 1.3rem;
     font-style: italic;
     color: #35A7FF;
-    /* margin-left: 1rem; */
     text-align: center;
 }
 
@@ -146,7 +144,6 @@ h2 span{
     position: relative;
     background-color: #fff;
     padding: 30px;
-    margin-left: 0.5rem;
     box-shadow: 10 30px 30px gray;
 }
 .skills h2{
@@ -216,4 +213,24 @@ h2 span{
     margin-top: 1.3rem;
     color: #35A7FF;
     font-style: italic;
+}
+
+@media (min-width:1000px) {
+    .right-side{
+        margin-left: 0.5rem;
+    }
+    
+}
+
+@media (max-width:1000px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .left-side{
+        padding: 15px;
+    }
+    .right-side{
+        padding: 15px;
+    }
+    
 }
